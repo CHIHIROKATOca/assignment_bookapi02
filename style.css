@@ -1,0 +1,30 @@
+:root {
+    --font-name : "roboto";
+    --main-padding:20px;
+    --max-width:1000px
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--font-name);
+}
+
+.container{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.container{
+    text-align: center;
+}
+
+.favourite{
+    color: yellowgreen;
+}
